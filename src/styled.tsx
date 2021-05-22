@@ -16,13 +16,13 @@ export const WrapperSearch = styled.div`
   display: flex;
   margin: 20px 0;
 
-
-  button{
-    border:1px solid #000;
+  button {
+    border: 1px solid #000;
     background-color: #fff;
     height: 35px;
     width: 150px;
     margin-left: 10px;
+    border-radius: 8px;
   }
 `;
 
@@ -30,15 +30,16 @@ export const SearchInput = styled.input`
   color: #ccc;
   border: none;
   outline: 0;
-  border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
+  padding: 10px;
   width: 400px;
+  border-radius: 8px;
 `;
 
 export const ContainerPlayer = styled.div`
   display: flex;
   width: 800px;
-  height: 50%;
-
+  justify-content: center;
   align-items: center;
 `;
 
@@ -46,7 +47,6 @@ export const Player = styled.div`
   background-color: #fff;
   border-radius: 30px;
   width: 50%;
-  height: 300px;
   margin: 0 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 `;
@@ -57,8 +57,15 @@ export const ListMusic = styled.div`
   display: flex;
   flex-direction: column;
 
-  li{
-    margin-bottom: 10px;
+  button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin-bottom:10px;
+
+  }
+  li {
     list-style: none;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;

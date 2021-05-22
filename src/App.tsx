@@ -24,7 +24,7 @@ function App() {
     try {
       let res = await fetch(
         `https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyC23EI1Vfurl4Cq6fxmCCF5sGNYWokiDDI&type=video&q=
-          ${text}`
+          ${text}&maxResults=50`
       );
       let resJSON = await res.json();
       setVideos(resJSON.items);
