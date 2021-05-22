@@ -24,7 +24,7 @@ export const Container = styled.div`
   background-size: cover;
 `;
 
-export const WrapperSearch = styled.div`
+export const WrapperSearch = styled.form`
   display: flex;
   align-items: center;
   margin: 20px 0;
