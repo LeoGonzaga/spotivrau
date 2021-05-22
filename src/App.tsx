@@ -77,7 +77,7 @@ function App() {
                   <Click
                     key={index}
                     onClick={() => setId(video.id?.videoId)}
-                    selected={id == video.id.videoId}
+                    selected={id === video.id.videoId}
                   >
                     <li>
                       {index} {video.snippet.title.substring(0, 35)}

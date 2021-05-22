@@ -56,6 +56,10 @@ export const ContainerPlayer = styled.div`
   width: 100%;
   justify-content: center;
   align-items: center;
+
+  @media(max-width: 800px) {
+   flex-direction: column;
+  }
 `;
 
 export const Player = styled.div`
