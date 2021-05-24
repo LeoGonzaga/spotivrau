@@ -22,7 +22,6 @@
 <div align="center">
    <p>Acessar por:  <a href="https://spotivrau.vercel.app" target="_blank">spotivrau.vercel.app</p>  
 </div> 
-
 # :pushpin: Conteúdo
 
 * [Tecnologias](#computer-Tecnologias)
