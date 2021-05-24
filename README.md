@@ -1,46 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<div align="center">
+<h2>Spotivrau</h2>
+</div>   
+<p align="center">	
+   <a href="https://www.linkedin.com/in/leogonzaga/">
+      <img alt="Léo Gonzaga" src="https://img.shields.io/badge/-Leo Gonzaga-FB250?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/LeoGonzaga/spotivrau?color=FB250">
 
-In the project directory, you can run:
+  <a href="https://github.com/leoGonzaga/spotivrau/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/leoGonzaga/spotivrau?color=FB250">
+  </a> 
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-FB250">
 
-### `yarn start`
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> :rocket: Aplicação utilizando a API de youtube
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# :pushpin: Conteúdo
 
-### `yarn build`
+* [Tecnologias](#computer-Tecnologias)
+* [Como executar](#construction_worker-how-to-run)
+* [Licença](#closed_book-license)
+  
+# :computer: Tecnologias
+Esse projeto foi desenvolvido utlizando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Javascript
+* Styled-Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# :construction_worker: How to run
+```bash
+# Clique em code e depois em download.zip ou clone o repositório.
+$ git clone https://github.com/LeoGonzaga/spotivrau.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Extraia a pasta caso tenha feito o download por zip
+# ou acesse a pasta clonada
 
-### `yarn eject`
+# Para executar, basta rodar:
+$ yarn start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# :closed_book: License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Released in 2020 :closed_book: License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Made with love by [Léo Gonzaga](https://github.com/LeoGonzaga) 🚀.
+This project is under the [MIT license](./LICENSE).
