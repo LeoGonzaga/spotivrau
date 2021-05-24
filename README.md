@@ -20,7 +20,7 @@
 
 
 <div align="center">
-   <p>Acessar por: spotivrau.vercel.app </p>  
+   <p>Acessar por:  <a href="https://spotivrau.vercel.app">spotivrau.vercel.app</p>  
 </div> 
 
 # :pushpin: Conteúdo
